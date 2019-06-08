@@ -115,6 +115,8 @@ Partial Class frmBingo
         Me.btn81 = New System.Windows.Forms.Button()
         Me.LBIngresados = New System.Windows.Forms.ListBox()
         Me.btnSalir = New System.Windows.Forms.Button()
+        Me.btnBingo = New System.Windows.Forms.Button()
+        Me.btnLinea = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn1
@@ -1135,12 +1137,34 @@ Partial Class frmBingo
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
         '
+        'btnBingo
+        '
+        Me.btnBingo.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBingo.Location = New System.Drawing.Point(120, 562)
+        Me.btnBingo.Name = "btnBingo"
+        Me.btnBingo.Size = New System.Drawing.Size(91, 36)
+        Me.btnBingo.TabIndex = 97
+        Me.btnBingo.Text = "Bingo"
+        Me.btnBingo.UseVisualStyleBackColor = True
+        '
+        'btnLinea
+        '
+        Me.btnLinea.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLinea.Location = New System.Drawing.Point(12, 562)
+        Me.btnLinea.Name = "btnLinea"
+        Me.btnLinea.Size = New System.Drawing.Size(91, 36)
+        Me.btnLinea.TabIndex = 98
+        Me.btnLinea.Text = "Linea"
+        Me.btnLinea.UseVisualStyleBackColor = True
+        '
         'frmBingo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(746, 610)
+        Me.Controls.Add(Me.btnLinea)
+        Me.Controls.Add(Me.btnBingo)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.LBIngresados)
         Me.Controls.Add(Me.btn90)
@@ -1335,4 +1359,6 @@ Partial Class frmBingo
     Friend WithEvents btn81 As Button
     Friend WithEvents LBIngresados As ListBox
     Friend WithEvents btnSalir As Button
+    Friend WithEvents btnBingo As Button
+    Friend WithEvents btnLinea As Button
 End Class

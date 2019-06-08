@@ -28,4 +28,19 @@
         LBIngresados.Items.Add(btn3.Text)
         btn3.Enabled = False
     End Sub
+
+    Private Sub btn4_Click(sender As Object, e As EventArgs) Handles btn4.Click
+        btn4.BackColor = Color.Violet
+        LBIngresados.Items.Add(btn4.Text)
+        btn4.Enabled = False
+    End Sub
+
+    Private Sub btnLinea_Click(sender As Object, e As EventArgs) Handles btnLinea.Click
+        MsgBox("LINEA", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "Sr. Usuario")
+    End Sub
+
+    Private Sub btnBingo_Click(sender As Object, e As EventArgs) Handles btnBingo.Click
+        MsgBox("Se ha ganado, BINGO!", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "Usuario Ganador")
+        End
+    End Sub
 End Class
