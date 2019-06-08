@@ -288,4 +288,13 @@
         End If
 
     End Sub
+
+    Private Sub frmBingo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub btnTodo_Click(sender As Object, e As EventArgs) Handles btnTodo.Click
+        LBIngresados.Items.Clear()
+
+    End Sub
 End Class

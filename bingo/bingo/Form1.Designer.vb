@@ -117,6 +117,7 @@ Partial Class frmBingo
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.btnBingo = New System.Windows.Forms.Button()
         Me.btnLinea = New System.Windows.Forms.Button()
+        Me.btnTodo = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn1
@@ -1157,12 +1158,22 @@ Partial Class frmBingo
         Me.btnLinea.Text = "Linea"
         Me.btnLinea.UseVisualStyleBackColor = True
         '
+        'btnTodo
+        '
+        Me.btnTodo.Location = New System.Drawing.Point(566, 21)
+        Me.btnTodo.Name = "btnTodo"
+        Me.btnTodo.Size = New System.Drawing.Size(159, 41)
+        Me.btnTodo.TabIndex = 99
+        Me.btnTodo.Text = "Borrar Todo"
+        Me.btnTodo.UseVisualStyleBackColor = True
+        '
         'frmBingo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(746, 610)
+        Me.Controls.Add(Me.btnTodo)
         Me.Controls.Add(Me.btnLinea)
         Me.Controls.Add(Me.btnBingo)
         Me.Controls.Add(Me.btnSalir)
@@ -1361,4 +1372,5 @@ Partial Class frmBingo
     Friend WithEvents btnSalir As Button
     Friend WithEvents btnBingo As Button
     Friend WithEvents btnLinea As Button
+    Friend WithEvents btnTodo As Button
 End Class
