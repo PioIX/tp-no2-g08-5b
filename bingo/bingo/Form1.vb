@@ -11,9 +11,21 @@
         btn1.BackColor = Color.Violet
         LBIngresados.Items.Add(btn1.Text)
         btn1.Enabled = False
-        ' If btn1.BackColor = Color.Violet Then
+        'If btn1.BackColor = Color.Violet Then
         'btn1.BackColor = Color.White
         'LBIngresados.Items.Remove(btn1.Text)
         'End If
+    End Sub
+
+    Private Sub btn2_Click(sender As Object, e As EventArgs) Handles btn2.Click
+        btn2.BackColor = Color.Violet
+        LBIngresados.Items.Add(btn2.Text)
+        btn2.Enabled = False
+    End Sub
+
+    Private Sub btn3_Click(sender As Object, e As EventArgs) Handles btn3.Click
+        btn3.BackColor = Color.Violet
+        LBIngresados.Items.Add(btn3.Text)
+        btn3.Enabled = False
     End Sub
 End Class
