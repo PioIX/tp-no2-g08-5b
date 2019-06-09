@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmBingo
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmBingo
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.btn1 = New System.Windows.Forms.Button()
         Me.lblBingo = New System.Windows.Forms.Label()
@@ -106,7 +106,7 @@ Partial Class frmBingo
         Me.btn90 = New System.Windows.Forms.Button()
         Me.btn89 = New System.Windows.Forms.Button()
         Me.btn88 = New System.Windows.Forms.Button()
-        Me.btn97 = New System.Windows.Forms.Button()
+        Me.btn87 = New System.Windows.Forms.Button()
         Me.btn86 = New System.Windows.Forms.Button()
         Me.btn85 = New System.Windows.Forms.Button()
         Me.btn84 = New System.Windows.Forms.Button()
@@ -1043,16 +1043,16 @@ Partial Class frmBingo
         Me.btn88.Text = "88"
         Me.btn88.UseVisualStyleBackColor = False
         '
-        'btn97
+        'btn87
         '
-        Me.btn97.BackColor = System.Drawing.Color.White
-        Me.btn97.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn97.Location = New System.Drawing.Point(336, 500)
-        Me.btn97.Name = "btn97"
-        Me.btn97.Size = New System.Drawing.Size(48, 48)
-        Me.btn97.TabIndex = 91
-        Me.btn97.Text = "87"
-        Me.btn97.UseVisualStyleBackColor = False
+        Me.btn87.BackColor = System.Drawing.Color.White
+        Me.btn87.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn87.Location = New System.Drawing.Point(336, 500)
+        Me.btn87.Name = "btn87"
+        Me.btn87.Size = New System.Drawing.Size(48, 48)
+        Me.btn87.TabIndex = 91
+        Me.btn87.Text = "87"
+        Me.btn87.UseVisualStyleBackColor = False
         '
         'btn86
         '
@@ -1172,7 +1172,7 @@ Partial Class frmBingo
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(746, 610)
+        Me.ClientSize = New System.Drawing.Size(746, 611)
         Me.Controls.Add(Me.btnTodo)
         Me.Controls.Add(Me.btnLinea)
         Me.Controls.Add(Me.btnBingo)
@@ -1181,7 +1181,7 @@ Partial Class frmBingo
         Me.Controls.Add(Me.btn90)
         Me.Controls.Add(Me.btn89)
         Me.Controls.Add(Me.btn88)
-        Me.Controls.Add(Me.btn97)
+        Me.Controls.Add(Me.btn87)
         Me.Controls.Add(Me.btn86)
         Me.Controls.Add(Me.btn85)
         Me.Controls.Add(Me.btn84)
@@ -1361,7 +1361,7 @@ Partial Class frmBingo
     Friend WithEvents btn90 As Button
     Friend WithEvents btn89 As Button
     Friend WithEvents btn88 As Button
-    Friend WithEvents btn97 As Button
+    Friend WithEvents btn87 As Button
     Friend WithEvents btn86 As Button
     Friend WithEvents btn85 As Button
     Friend WithEvents btn84 As Button
