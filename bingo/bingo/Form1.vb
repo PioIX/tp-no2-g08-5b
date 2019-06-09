@@ -941,4 +941,124 @@
         btn89.BackColor = Color.White
         btn90.BackColor = Color.White
     End Sub
+
+    Private Sub btn71_Click(sender As Object, e As EventArgs) Handles btn71.Click
+        If btn71.BackColor = Color.Violet Then
+            btn71.BackColor = Color.White
+            LBIngresados.Items.Remove(btn71.Text)
+
+        Else
+            btn71.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn71.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn72_Click(sender As Object, e As EventArgs) Handles btn72.Click
+        If btn72.BackColor = Color.Violet Then
+            btn72.BackColor = Color.White
+            LBIngresados.Items.Remove(btn72.Text)
+
+        Else
+            btn72.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn72.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn73_Click(sender As Object, e As EventArgs) Handles btn73.Click
+        If btn73.BackColor = Color.Violet Then
+            btn73.BackColor = Color.White
+            LBIngresados.Items.Remove(btn73.Text)
+
+        Else
+            btn73.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn73.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn74_Click(sender As Object, e As EventArgs) Handles btn74.Click
+        If btn74.BackColor = Color.Violet Then
+            btn74.BackColor = Color.White
+            LBIngresados.Items.Remove(btn74.Text)
+
+        Else
+            btn74.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn74.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn75_Click(sender As Object, e As EventArgs) Handles btn75.Click
+        If btn75.BackColor = Color.Violet Then
+            btn75.BackColor = Color.White
+            LBIngresados.Items.Remove(btn75.Text)
+
+        Else
+            btn75.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn75.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn76_Click(sender As Object, e As EventArgs) Handles btn76.Click
+        If btn76.BackColor = Color.Violet Then
+            btn76.BackColor = Color.White
+            LBIngresados.Items.Remove(btn76.Text)
+
+        Else
+            btn76.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn76.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn77_Click(sender As Object, e As EventArgs) Handles btn77.Click
+        If btn77.BackColor = Color.Violet Then
+            btn77.BackColor = Color.White
+            LBIngresados.Items.Remove(btn77.Text)
+
+        Else
+            btn77.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn77.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn78_Click(sender As Object, e As EventArgs) Handles btn78.Click
+        If btn78.BackColor = Color.Violet Then
+            btn78.BackColor = Color.White
+            LBIngresados.Items.Remove(btn78.Text)
+
+        Else
+            btn78.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn78.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn79_Click(sender As Object, e As EventArgs) Handles btn79.Click
+        If btn79.BackColor = Color.Violet Then
+            btn79.BackColor = Color.White
+            LBIngresados.Items.Remove(btn79.Text)
+
+        Else
+            btn79.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn79.Text)
+
+        End If
+    End Sub
+
+    Private Sub btn80_Click(sender As Object, e As EventArgs) Handles btn80.Click
+        If btn80.BackColor = Color.Violet Then
+            btn80.BackColor = Color.White
+            LBIngresados.Items.Remove(btn80.Text)
+
+        Else
+            btn80.BackColor = Color.Violet
+            LBIngresados.Items.Add(btn80.Text)
+
+        End If
+    End Sub
 End Class

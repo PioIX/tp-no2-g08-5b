@@ -118,6 +118,15 @@ Partial Class frmBingo
         Me.btnBingo = New System.Windows.Forms.Button()
         Me.btnLinea = New System.Windows.Forms.Button()
         Me.btnTodo = New System.Windows.Forms.Button()
+        Me.btn99 = New System.Windows.Forms.Button()
+        Me.btn98 = New System.Windows.Forms.Button()
+        Me.btn97 = New System.Windows.Forms.Button()
+        Me.btn96 = New System.Windows.Forms.Button()
+        Me.btn95 = New System.Windows.Forms.Button()
+        Me.btn94 = New System.Windows.Forms.Button()
+        Me.btn93 = New System.Windows.Forms.Button()
+        Me.btn92 = New System.Windows.Forms.Button()
+        Me.btn91 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn1
@@ -1123,15 +1132,15 @@ Partial Class frmBingo
         'LBIngresados
         '
         Me.LBIngresados.FormattingEnabled = True
-        Me.LBIngresados.Location = New System.Drawing.Point(566, 68)
+        Me.LBIngresados.Location = New System.Drawing.Point(566, 65)
         Me.LBIngresados.Name = "LBIngresados"
-        Me.LBIngresados.Size = New System.Drawing.Size(159, 485)
+        Me.LBIngresados.Size = New System.Drawing.Size(159, 537)
         Me.LBIngresados.TabIndex = 95
         '
         'btnSalir
         '
         Me.btnSalir.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSalir.Location = New System.Drawing.Point(634, 562)
+        Me.btnSalir.Location = New System.Drawing.Point(634, 613)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(91, 36)
         Me.btnSalir.TabIndex = 96
@@ -1141,7 +1150,7 @@ Partial Class frmBingo
         'btnBingo
         '
         Me.btnBingo.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBingo.Location = New System.Drawing.Point(120, 562)
+        Me.btnBingo.Location = New System.Drawing.Point(120, 613)
         Me.btnBingo.Name = "btnBingo"
         Me.btnBingo.Size = New System.Drawing.Size(91, 36)
         Me.btnBingo.TabIndex = 97
@@ -1151,7 +1160,7 @@ Partial Class frmBingo
         'btnLinea
         '
         Me.btnLinea.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLinea.Location = New System.Drawing.Point(12, 562)
+        Me.btnLinea.Location = New System.Drawing.Point(12, 613)
         Me.btnLinea.Name = "btnLinea"
         Me.btnLinea.Size = New System.Drawing.Size(91, 36)
         Me.btnLinea.TabIndex = 98
@@ -1167,12 +1176,120 @@ Partial Class frmBingo
         Me.btnTodo.Text = "Borrar Todo"
         Me.btnTodo.UseVisualStyleBackColor = True
         '
+        'btn99
+        '
+        Me.btn99.BackColor = System.Drawing.Color.White
+        Me.btn99.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn99.Location = New System.Drawing.Point(444, 554)
+        Me.btn99.Name = "btn99"
+        Me.btn99.Size = New System.Drawing.Size(48, 48)
+        Me.btn99.TabIndex = 108
+        Me.btn99.Text = "99"
+        Me.btn99.UseVisualStyleBackColor = False
+        '
+        'btn98
+        '
+        Me.btn98.BackColor = System.Drawing.Color.White
+        Me.btn98.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn98.Location = New System.Drawing.Point(390, 554)
+        Me.btn98.Name = "btn98"
+        Me.btn98.Size = New System.Drawing.Size(48, 48)
+        Me.btn98.TabIndex = 107
+        Me.btn98.Text = "98"
+        Me.btn98.UseVisualStyleBackColor = False
+        '
+        'btn97
+        '
+        Me.btn97.BackColor = System.Drawing.Color.White
+        Me.btn97.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn97.Location = New System.Drawing.Point(336, 554)
+        Me.btn97.Name = "btn97"
+        Me.btn97.Size = New System.Drawing.Size(48, 48)
+        Me.btn97.TabIndex = 106
+        Me.btn97.Text = "97"
+        Me.btn97.UseVisualStyleBackColor = False
+        '
+        'btn96
+        '
+        Me.btn96.BackColor = System.Drawing.Color.White
+        Me.btn96.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn96.Location = New System.Drawing.Point(282, 554)
+        Me.btn96.Name = "btn96"
+        Me.btn96.Size = New System.Drawing.Size(48, 48)
+        Me.btn96.TabIndex = 105
+        Me.btn96.Text = "96"
+        Me.btn96.UseVisualStyleBackColor = False
+        '
+        'btn95
+        '
+        Me.btn95.BackColor = System.Drawing.Color.White
+        Me.btn95.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn95.Location = New System.Drawing.Point(228, 554)
+        Me.btn95.Name = "btn95"
+        Me.btn95.Size = New System.Drawing.Size(48, 48)
+        Me.btn95.TabIndex = 104
+        Me.btn95.Text = "95"
+        Me.btn95.UseVisualStyleBackColor = False
+        '
+        'btn94
+        '
+        Me.btn94.BackColor = System.Drawing.Color.White
+        Me.btn94.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn94.Location = New System.Drawing.Point(174, 554)
+        Me.btn94.Name = "btn94"
+        Me.btn94.Size = New System.Drawing.Size(48, 48)
+        Me.btn94.TabIndex = 103
+        Me.btn94.Text = "94"
+        Me.btn94.UseVisualStyleBackColor = False
+        '
+        'btn93
+        '
+        Me.btn93.BackColor = System.Drawing.Color.White
+        Me.btn93.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn93.Location = New System.Drawing.Point(120, 554)
+        Me.btn93.Name = "btn93"
+        Me.btn93.Size = New System.Drawing.Size(48, 48)
+        Me.btn93.TabIndex = 102
+        Me.btn93.Text = "93"
+        Me.btn93.UseVisualStyleBackColor = False
+        '
+        'btn92
+        '
+        Me.btn92.BackColor = System.Drawing.Color.White
+        Me.btn92.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn92.Location = New System.Drawing.Point(66, 554)
+        Me.btn92.Name = "btn92"
+        Me.btn92.Size = New System.Drawing.Size(48, 48)
+        Me.btn92.TabIndex = 101
+        Me.btn92.Text = "92"
+        Me.btn92.UseVisualStyleBackColor = False
+        '
+        'btn91
+        '
+        Me.btn91.BackColor = System.Drawing.Color.White
+        Me.btn91.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn91.Location = New System.Drawing.Point(12, 554)
+        Me.btn91.Name = "btn91"
+        Me.btn91.Size = New System.Drawing.Size(48, 48)
+        Me.btn91.TabIndex = 100
+        Me.btn91.Text = "91"
+        Me.btn91.UseVisualStyleBackColor = False
+        '
         'frmBingo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(746, 611)
+        Me.ClientSize = New System.Drawing.Size(746, 660)
+        Me.Controls.Add(Me.btn99)
+        Me.Controls.Add(Me.btn98)
+        Me.Controls.Add(Me.btn97)
+        Me.Controls.Add(Me.btn96)
+        Me.Controls.Add(Me.btn95)
+        Me.Controls.Add(Me.btn94)
+        Me.Controls.Add(Me.btn93)
+        Me.Controls.Add(Me.btn92)
+        Me.Controls.Add(Me.btn91)
         Me.Controls.Add(Me.btnTodo)
         Me.Controls.Add(Me.btnLinea)
         Me.Controls.Add(Me.btnBingo)
@@ -1373,4 +1490,13 @@ Partial Class frmBingo
     Friend WithEvents btnBingo As Button
     Friend WithEvents btnLinea As Button
     Friend WithEvents btnTodo As Button
+    Friend WithEvents btn99 As Button
+    Friend WithEvents btn98 As Button
+    Friend WithEvents btn97 As Button
+    Friend WithEvents btn96 As Button
+    Friend WithEvents btn95 As Button
+    Friend WithEvents btn94 As Button
+    Friend WithEvents btn93 As Button
+    Friend WithEvents btn92 As Button
+    Friend WithEvents btn91 As Button
 End Class
